@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+}
+
+.game-container {
+    text-align: center;
+}
+
+canvas {
+    border: 3px solid #fff;
+    border-radius: 50%;
+    background-color: #000;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+}
+
+.instructions {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.instructions p {
+    margin: 8px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
